@@ -42,7 +42,7 @@ img {
   height: 80px;
   line-height: 80px;
   text-align: center;
-  background-color: pink;
+  background-color: green;
   margin-bottom: 10px;
 }
 
@@ -76,15 +76,15 @@ img {
 @keyframes move {
   0% {
     -webkit-transform: translateX(0px) rotate(0deg);
-    transform: translateX(0px) rotate(0deg);
+            transform: translateX(0px) rotate(0deg);
   }
   60% {
     -webkit-transform: translateX(200px) rotate(0deg);
-    transform: translateX(200px) rotate(0deg);
+            transform: translateX(200px) rotate(0deg);
   }
   100% {
     -webkit-transform: translateX(200px) rotate(360deg);
-    transform: translateX(200px) rotate(360deg);
+            transform: translateX(200px) rotate(360deg);
   }
 }
 
