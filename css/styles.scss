@@ -37,9 +37,9 @@ img{
 
 .inner{
   margin: 0 auto;
-  max-width: px;
+  max-width: 1000px;
   width: 100%;
-  background-color: rgba(241,92,168,0.2);
+  // background-color: rgba(241,92,168,0.2);
   padding: 0 4%;
 }
 
@@ -87,8 +87,22 @@ img{
     transform: translateX(200px) rotate(360deg);
   }
 }
-  
-  
+
+.serach-form{
+  border: 3px solid #dedede;
+  padding: 10px 10px 10px 40px;
+  width: 300px;
+  background: url(../images/search.svg) 10px no-repeat;
+}
+.serach-btn{
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #2ca9b4;
+  color: #fff;
+}
+
+
 
 /* -------------------------------------------- */
 /* ▼タブレット用デザインとして付け足すデザイン */
